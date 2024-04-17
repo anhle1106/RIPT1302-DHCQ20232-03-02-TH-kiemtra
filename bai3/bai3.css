@@ -1,0 +1,60 @@
+body{
+    background-image: url('https://wall.vn/wp-content/uploads/2020/02/hinh-nen-powerpoint-don-gian-31.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.thongtin , .hinhanh{
+    box-sizing: border-box;
+}
+.tag{
+    font-weight: 700;
+    text-decoration: underline;
+    color: brown;
+}
+.indam{
+    color: brown;
+    font-weight: 700;
+}
+.stt{
+    font-weight: 700;
+    font-size: 1em ;
+}
+.tot{
+    text-decoration: underline;
+}
+.padding , .skill{
+    padding:0.3em;
+}
+.skill{
+    color:brown;
+    text-decoration: underline;
+}
+.gioithieu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margee{
+    font-size:2em;
+    font-weight: 500;
+    background-color: thistle;
+    margin: 0;
+    
+}
+.profile{
+    display: flex;
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+}

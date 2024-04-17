@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Hồ</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="note" style="margin-bottom:4em; color: aqua;">
+          <h1>CLOCK!</h1>
+        </div>
+        <div class="time-inputs">
+          <input type="number" id="minuteInput" min="0" max="23" placeholder="MM">
+          <span>:</span>
+          <input type="number" id="secondInput" min="0" max="59" placeholder="SS">
+        </div>
+        <div class="buttons">
+          <button id="startButton" onclick="startClock()">Start</button>
+          <button id="stopButton" onclick="stopClock()">Stop</button>
+          <button id="resetButton" onclick="resetClock()">Reset</button>
+        </div>
+       
+      </div>
+      <script src="bai2.js"></script>
+      
+    
+</body>
+</html>

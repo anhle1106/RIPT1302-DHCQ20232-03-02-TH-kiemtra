@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Toán</title>
+    <link rel="stylesheet" href="bai1.css">
+    <script src="bai1.js"></script>
+</head>
+<body>
+    <div class="tinh">
+        <form id="calculatorForm" onsubmit="event.preventDefault(); tinh()">
+            <input type="text" id="inputA" placeholder="Nhập số A">
+            <input type="text" id="inputB" placeholder="Nhập số B">
+            <button type="submit">SUM</button>
+            <button type="submit">SUBTRACT</button>
+            <button type="submit">MULTIPLY</button>
+            <button type="submit">DIVIDE</button>
+            <button type="reset">RESET</button>
+        </form>
+        <div id="ketqua"></div>
+    </div>
+
+</body>
+</html>
